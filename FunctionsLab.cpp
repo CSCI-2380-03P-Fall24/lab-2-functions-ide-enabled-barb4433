@@ -20,7 +20,7 @@ int locateSmallest(int array[], int start, int end)
 			min = i;
 		}
 	}
-	return minIndex;
+	return min;
 }
 
 //Write the function called replaceVariable in the given interval such that 
@@ -45,7 +45,8 @@ void replaceVariable(int array[], int value, int start, int end)
 //write a function called printArray to print out the elements of the given array
 //output: nothing
 //input: the array of integers and its size
-void printArray() {
+void printArray(int array[], int size)
+{
 	return;
 }
 
