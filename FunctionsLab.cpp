@@ -29,7 +29,7 @@ int locateSmallest(int array[], int start, int end)
 // function: Search in the array from given start to end index and replace the given target value with 1000
 void replaceVariable(int array[], int value, int start, int end)
 {
-	for (int i=start; i <=end; i++)
+	for (int i = start; i <= end; i++)
 	{
 		if(array[i] == value)
 		{
@@ -45,7 +45,7 @@ void printArray(int array[], int size)
 {
 	for (int i = 0; i < size; i++)
 	{
-		cout << array[i] << endl;
+		cout << array[i] << " ";
 	}
 }
 
